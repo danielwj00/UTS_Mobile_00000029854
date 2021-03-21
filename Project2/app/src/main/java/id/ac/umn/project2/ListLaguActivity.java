@@ -91,7 +91,6 @@ public class ListLaguActivity extends AppCompatActivity implements
     private AlertDialog.Builder dialog;
     private LayoutInflater inflater;
     private View dialogView;
-    private boolean popUpShown = false;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -101,10 +100,7 @@ public class ListLaguActivity extends AppCompatActivity implements
         setUpAdapter();
         setUpListeners();
         getSongList();
-        if(popUpShown == false){
-            welcomeMessage();
-            popUpShown = true;
-        }
+        welcomeMessage();
     }
 
     @Override
