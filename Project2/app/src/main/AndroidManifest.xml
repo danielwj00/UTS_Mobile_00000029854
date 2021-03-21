@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.Project1">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,21 +21,25 @@
         </activity>
         <activity android:name=".LoginActivity"
             android:label="Halaman Login"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity">
 
         </activity>
         <activity android:name=".ProfileActivity"
             android:label="Profile Saya"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity">
 
         </activity>
         <activity android:name=".ListLaguActivity"
             android:label="List Lagu"
+            android:screenOrientation="portrait"
             android:parentActivityName=".LoginActivity">
 
         </activity>
         <activity android:name=".ProfileLoggedActivity"
             android:label="Profile Saya"
+            android:screenOrientation="portrait"
             android:parentActivityName=".ListLaguActivity">
 
         </activity>
