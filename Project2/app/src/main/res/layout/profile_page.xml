@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_width="320dp"
             android:layout_columnSpan="1"
-            android:text="banyak :)"
+            android:text="Stephen\nHari Prasad\nAndrew Dillon"
             android:fontFamily="sans-serif-light"
             android:textColor="@color/black"/>
     </GridLayout>
